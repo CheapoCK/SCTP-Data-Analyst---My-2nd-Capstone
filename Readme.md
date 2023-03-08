@@ -1,34 +1,37 @@
 # My second capstone
 
 ### Gaming Development Startup Analysis
-![image](https://i.imgur.com/ZAxAsrp.jpg)
 
 
-As a junior data analyst for a new startup gaming developer, you can use the VGChartz.com dataset to gain valuable insights into gaming trends, popular platforms, and top publishers over the past five years from 2018 to 2022. By performing a data analysis on this dataset, you can identify patterns and trends that can inform the development of new games and guide marketing efforts.
-
-To begin with, you can extract and clean the relevant data from the VGChartz.com dataset, f
-
-In addition, you can analyze the number of games released by different publishers, identifying which publishers have released the highest number of games during this period. This can help you understand which publishers are dominating the market and which ones may be potential competitors for your startup gaming company.
-
-An analysis on gaming trends, popular platforms, and top publishers can provide valuable insights for a new startup gaming developer. This information can inform strategic decisions on game development, marketing, and business partnerships, ultimately helping developer to succeed in the competitive gaming industry. Analysis will focus on sales figures, platforms, and publishers. 
-
-
-
-An analysis of Singapore weather dataset for in year 2022, focusing on the Rainfall and Air Temperature data. The dashboard provides a visual and interactive platform for exploring patterns and trends in the data, helping user to gain insights into the rainfall and temperature patterns in Singapore. The dashboard was created using Microsoft Excel software and features user-friendly interface that allows user to access and interact with the data in an intuitive manner. The dashboard provides a valuable tool for data analysis, enabling user to make informed decisions based on the data.
-
-### What have I learned from this analysis?
-- The **highest rainfall** was in *October*.
-- The **lowest rainfall** was in *January*.
-- Top 3 stations with **highest rainfall** were *Admiralty*, *Ang Mo Kio* and *Clementi*. 
-- *East Coast Parkway* station has **lowest rainfall**.
-- The **highest temperature recorded** was **36.8°C**, at *Admiralty* station.
+An analysis using the VGChartz.com dataset (source from Kaggle) to gain valuable insights on gaming trends, popular platforms, and top publishers over the past five years, from 2018 to 2022. This information can inform strategic decisions on game development, marketing, and business partnerships, ultimately helping startup developers to succeed in the competitive gaming industry. The analysis will focus on sales figures, platforms, and publishers. Analysis was done in the pgAdmin platform (PostgreSQL) and results were exported into Microsoft Excel to create a Dashboard for visualisation.
 
 ### What are the changes
-- Cleaning data using Power Query (remove unwanted column, create new DATE column, etc)
-- Using Pivot Table to create Pivot Charts.
-- Adding Slicer to filter Pivot Table, visualize the same data with different criteria.
+- Raw data in .csv format, download from Kaggle
+- Using SQLite, convert .csv into .sql and import into pgAdmin platform for Data Cleaning.
+- 
 
 
-### Future Improvement
+
+
+
+### What have I learned from this analysis?
+
+![image](https://i.imgur.com/haBL7c4.jpg)
+- Game titles with the highest sales: **Red Dead Redemption 2**, **Call of Duty: Black Ops IIII**, **FIFA 19**
+- Publisher with highest game title release: **Nintendo**, **Square Enix**, **Sega**
+- Platform with highest game titles release: **NS**, **PC**, **PS4**, **XOne**
+- Platform with highest sales: **PS4** *56%*, **XOne** *25%*, **NS**, *14%*
+- Popular platform sales record in 4 regions: **PS4**
+
+Recommendations for the upcoming development are as follows
+- The ‘actions’ styles of games are more popular.
+- Seek cooperation with Nintendo as the game’s main publisher.
+- Focus on running the new game on PS (PlayStation) as the main platform.
+- Primary target markets are North America and the PAL region.
+
+
+
+
+### Future Improvement (ver. 2.0)
 - To include Y2021 and Y2020 dataset.
 - To add Wind charts into the Dashboard for analyse.
