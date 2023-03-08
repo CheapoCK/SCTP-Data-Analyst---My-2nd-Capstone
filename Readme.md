@@ -1,10 +1,8 @@
 # My second capstone
 
 ### Gaming Development Startup Analysis
-![image](https://user-images.githubusercontent.com/123168297/223625231-d997bd4e-5160-40d8-8aed-c66c2a08170c.png)
+![image](https://i.imgur.com/ZAxAsrp.jpg)
 
-
-![](https://i.imgur.com/KXA8TeP.jpg)
 
 As a junior data analyst for a new startup gaming developer, you can use the VGChartz.com dataset to gain valuable insights into gaming trends, popular platforms, and top publishers over the past five years from 2018 to 2022. By performing a data analysis on this dataset, you can identify patterns and trends that can inform the development of new games and guide marketing efforts.
 
