@@ -8,11 +8,7 @@ An analysis using the VGChartz.com dataset (source from Kaggle) to gain valuable
 ### What are the changes
 - Raw data in .csv format, download from Kaggle
 - Using SQLite, convert .csv into .sql and import into pgAdmin platform for Data Cleaning.
-- 
-
-
-
-
+- Using SQL to perform data cleaning: remove empty rows, unwanted columns (example: column “pos”), replacing all N/A with NULL, change Data Type, etc
 
 ### What have I learned from this analysis?
 
@@ -29,9 +25,8 @@ Recommendations for the upcoming development are as follows
 - Focus on running the new game on PS (PlayStation) as the main platform.
 - Primary target markets are North America and the PAL region.
 
+### Further Improvement (ver. 2.0)
+- To analyse popular game titles using scores data.
+- To include games genre
 
-
-
-### Future Improvement (ver. 2.0)
-- To include Y2021 and Y2020 dataset.
-- To add Wind charts into the Dashboard for analyse.
+Click *[here](https://www.linkedin.com/in/chee-keong-ng-5a5920117/)* for my Linkedin page 
